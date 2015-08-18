@@ -1,7 +1,7 @@
 <?php
 $host="localhost"; //replace with your hostname 
 $username="root"; //replace with your username 
-$password="ttunawesmake"; //replace with your password 
+$password=""; //replace with your password 
 $db_name="astroquiz"; //replace with your database 
 $con=mysql_connect('localhost', 'root', '')or die('cannot connect'); 
 mysql_select_db("$db_name")or die("cannot select DB");
